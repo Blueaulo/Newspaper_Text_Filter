@@ -7,3 +7,4 @@ raw_text = soup.find_all('p')
 print ('-------------------')
 for article in raw_text:
     print(article.text)
+input("Press enter to close program")
